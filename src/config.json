@@ -1,0 +1,61 @@
+{
+    "algo": "pengo",
+    "api": {
+        "port": 10000,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "cpu-threads": "all",
+    "cpu-optimization": null,
+    "cpu-affinity": null,
+    "priority": null,
+    "donate-level": 5,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "stratum+tcp://peng-pool.s2ii.xyz:3333",
+            "user": "PNGLNN2iFo8AR24SfySidHbL2846iFzCtT6jXhnqrqFZZL2cSd7T6ot4wswPyLAXEvVrCFdsEBf3UG6fuySBeAAFJXXJAMvBmAV4P",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": "pengo",
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "user-agent": null,
+    "syslog": false,
+    "watch": true,
+    "use-gpu": [
+        "OPENCL",
+        "CUDA"
+    ],
+    "gpu-intensity": [
+        50.0
+    ],
+    "gpu-filter": [
+        {
+            "engine": "OPENCL",
+            "filter": "AMD"
+        },
+        {
+            "engine": "OPENCL",
+            "filter": "Radeon"
+        },
+        {
+            "engine": "OPENCL",
+            "filter": "Advanced Micro Devices"
+        }
+    ]
+}
