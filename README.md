@@ -91,7 +91,7 @@ $ make
 **!!! In some cases (mostly on Windows) the miner doesn't properly detect AVX2 optimization for CPU. If AVX2 doesn't appear in optimization features list for CPU at miner startup, please verify on google if your CPU model has it. If it does have AVX2 support, please run it with "--cpu-optimization AVX2" option. This will give a serious boost to hash rate speed so it does worth the effort to check. !!!**
 
 ```sh
-       pengorig -a ninja -o stratum+tcp://<pool_address>:<pool_port> -u <username> -p <password> -t <cpu_threads> --use-gpu <OPENCL,CUDA> --gpu-filter <filters like: OPENCL:AMD,CUDA:1070> --gpu-intensity <intensity from 1-100>
+       pengorig -a pengo -o stratum+tcp://<pool_address>:<pool_port> -u <username> -p <password> -t <cpu_threads> --use-gpu <OPENCL,CUDA> --gpu-filter <filters like: OPENCL:AMD,CUDA:1070> --gpu-intensity <intensity from 1-100>
 ```
 
 ### Options
